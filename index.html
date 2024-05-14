@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(Fundoreal.jpg);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background-color: #ffffff00;
+            padding: 10px;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .menu li {
+            float: right; /* Movendo as opções do menu para a direita */
+        }
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        .menu li a:hover {
+            background-color: #295c7f;
+        }
+        .search-bar {
+            flex-grow: 1; /* A barra de pesquisa ocupa todo o espaço disponível */
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 8px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .capa {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.6);
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        .container2 {
+            position: relative;
+            width: 60%;
+            margin: auto;
+            height: 15%;
+            background-color: #ffffff07;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: #000000;
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            text-align: justify;
+            padding-right: 5px;
+            border-radius: 1%;
+            margin-top: 15px;
+        }
+
+        .aga1 {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .container3 {
+            position: relative;
+            margin-top: 30px;
+            width: 60%;
+            margin-left: 21%;
+            padding: 10px;
+            background-color: #ffffff07;
+            box-shadow: 0 0 1000px rgba(0, 0, 0, 0.1);
+            border: #000000;
+            color: rgb(255, 255, 255);
+            text-align: justify;
+            box-sizing: border-box black;
+            border: 1px solid #000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .containerzinho{
+        font-weight: 900;
+        font-size: 28px;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Portfólio</a>
+            <div class="search-bar">
+                <input type="text" placeholder="buscar por?">
+            </div>
+            <ul class="menu">
+                <li><a href="Hobby.html">Hobby</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerzinho">
+        <center><h1>Meu portfólio</h1></center>
+        <center><p>Bem vindo ao meu portfólio!!</p></center>
+    </div>
+
+    <div class="container3">
+        <h1>Sobre mim:</h1>
+        <h3>Me chamo Arthur, tenho 17 anos, e estudo no colégio senac caruaru, curso o terceiro ano do ensino médio
+            junto a um curso técnico de análise de desenvolvimento de sistemas. Gosto muito de jogos e de música, além de coisas que desafiem minha mente.
+        </h3>
+    </div>
+
+    <div class="container3">
+        <h1>Minhas habilidades:</h1>
+        <h3>pego os assuntos de escola ou temas específicos muito rápido, também sou muito bom em jogos no geral, tenho uma incrível habilidade de comer muito rápido e é só isso mesmo
+        </h3>
+    </div>
+
+    <br>
+    <footer id="footer">
+        <p>&copy; 2024 Arthur. Nenhum direito reservado.</p>
+    </footer>
+</body>
+</html>

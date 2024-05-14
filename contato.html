@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(Fundoreal.jpg);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background-color: #ffffff00;
+            padding: 10px;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .menu li {
+            float: right;
+        }
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        .menu li a:hover {
+            background-color: #295c7f;
+        }
+        .search-bar {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 8px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .capa {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.6);
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        .container2 {
+            position: relative;
+            width: 60%;
+            margin: auto;
+            height: 15%;
+            background-color: #ffffff07;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: #000000;
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            text-align: justify;
+            padding-right: 5px;
+            border-radius: 1%;
+            margin-top: 15px;
+        }
+
+        .aga1 {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .container3 {
+            position: relative;
+            margin-top: 30px;
+            width: 60%;
+            margin-left: 21%;
+            padding: 10px;
+            background-color: #ffffff07;
+            box-shadow: 0 0 1000px rgba(0, 0, 0, 0.1);
+            border: #000000;
+            color: rgb(255, 255, 255);
+            text-align: justify;
+            box-sizing: border-box black;
+            border: 1px solid #000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .containerzinho{
+        font-weight: 900;
+        font-size: 28px;
+        color: white;
+        }
+
+        .container4 {
+        position: relative;
+        margin-top: 30px;
+        width: 60%;
+        margin-left: 21%;
+        background-color: #ffffff07;
+        box-shadow: 0 0 1000px rgba(0, 0, 0, 0.1);
+        border: #000000;
+        color: rgb(255, 255, 255);
+        text-align: justify;
+        box-sizing: border-box black;
+        border: 1px solid #000;
+        }
+
+        .social-link {
+        display: inline-flex;
+        align-items: center;
+        }
+
+        .social-link ion-icon {
+        margin-right: 10px;
+        }
+
+        .social-link h2 {
+        margin: 0;
+        line-height: 1;
+        }
+
+        .social-link span {
+        font-size: 24px;
+        vertical-align: top;
+        text-decoration: none;
+        }
+
+        .social-link a {
+        text-decoration: none;
+        }
+
+        .whatsapp-link {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        color: green;
+        }
+
+        
+        .whatsapp-link h3 {
+        margin: 0;
+        margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Portfólio</a>
+            <div class="search-bar">
+                <input type="text" placeholder="buscar por?">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Portfólio</a></li>
+                <li><a href="Hobby.html">Hobby</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerzinho">
+        <center><h1>Meu portfólio</h1></center>
+        <center><p>Bem vindo ao meu portfólio!!</p></center>
+    </div>
+
+    <div class="container4">
+        <h1>Contato:</h1>
+        <div class="social-link">
+            <a href="https://www.instagram.com/arth.bez/">
+                <ion-icon size="large" name="logo-instagram"></ion-icon>
+                <span>Instagram</span>
+            </a>
+        </div>
+        <div class="whatsapp-link">
+            <ion-icon size="large" name="logo-whatsapp"></ion-icon>
+            <h3>Whatsapp: 81 99965-4043</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="footer">
+        <p>&copy; 2024 Arthur. Nenhum direito reservado.</p>
+    </footer>
+</body>
+</html>
